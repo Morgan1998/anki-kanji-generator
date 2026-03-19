@@ -1,0 +1,25 @@
+{
+  "name": "anki-kanji-generator-",
+  "version": "1.0.0",
+  "description": "Script that takes a list of kanji, prompts an LLM via an API, and returns a CSV with the kanji paired with a collection of example sentences.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morgan1998/anki-kanji-generator-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Morgan1998/anki-kanji-generator-/issues"
+  },
+  "homepage": "https://github.com/Morgan1998/anki-kanji-generator-#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.3.1"
+  }
+}
